@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 35px;
+    transition: .40s ease;
+    padding: 0 50px;
+}
+
+.navbar .navbar_content {
+    display: flex;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+}
+
+.navbar .navbar_content .logo_img {
+    position: relative;
+    z-index: 999;
+}
+
+.navbar .navbar_content .logo_img .position_background {
+    position: relative;
+    width: 40%;
+    top: 17px;
+}
+
+.navbar .navbar_content .let_show_hyper_menu {
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    top: 20px;
+    justify-content: center;
+    right: 0;
+}
+
+.navbar .navbar_content .logo_img .position_background a{
+    position: relative;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar .navbar_content .registration_login_link {
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+    position: relative;
+}
+
+.navbar .navbar_content .registration_login_link .position_links {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar .navbar_content .registration_login_link .position_links .link {
+    position: relative;
+    margin-top: 20px;
+}
+
+.navbar .navbar_content .registration_login_link .position_links .link a {
+    margin-right: 20px;
+    padding: 10px 24px;
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color: #000;
+    transition: .40s ease;
+    border-radius: 2px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.navbar .navbar_content .registration_login_link .position_links .link a:hover {
+    background: #002c49;
+    color: #fff;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.home {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.home:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #00000085;
+    width: 100%;
+    z-index: 888;
+    height: 100%;
+}
+
+.home img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home .content {
+    z-index: 888;
+    color: #fff;
+    position: absolute;
+}
+
+.home .content .h1_position {
+    font-size: 3em;
+    padding: 20px 20px;
+    position: relative;
+    top: 280px;
+    left: -150px;
+    background-color: #002c49;
+}
+
+.home .content .h1_position h1 {
+    position: relative;
+    font-size: 3em;
+    font-family: 'Bebas neue', sans-serif;
+}
+
+.home .information_lecuna {
+    position: absolute;
+    color: #fff;
+    z-index: 888;
+    width: 35%;
+    right: 60px;
+    background: #002c49;
+    padding: 20px;
+    bottom: 100px;
+}
+
+.Our_Mission_2do_page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #002c49;
+}   
+
+.Our_Mission_2do_page .content_mission {
+    position: relative;
+    color: #fff;
+    z-index: 777;
+}
+
+.Our_Mission_2do_page .box-color {
+    width: 300px;
+    height: 300px;
+    background-color: #002e02;
+    position: absolute;
+    z-index: 777;
+    filter: blur(90px);
+    bottom: 0;
+    right: 0;
+}
+
+.Our_Mission_2do_page .box-color:nth-child(2) {
+    width: 300px;
+    height: 300px;
+    background-color: #002e02;
+    position: absolute;
+    z-index: 777;
+    filter: blur(90px);
+    bottom: 0;
+    left: 0;
+}
+
+.Our_Mission_2do_page .box-color:nth-child(3) {
+    width: 300px;
+    height: 300px;
+    background-color: #002e02;
+    position: absolute;
+    z-index: 777;
+    filter: blur(90px);
+    bottom: 0;
+    left  : 0;
+}
+
+.Our_Mission_2do_page .box-color {
+    width: 300px;
+    height: 300px;
+    background-color: #002e02;
+    position: absolute;
+    z-index: 777;
+    filter: blur(90px);
+    bottom: 0;
+    right: 0;
+}
+
+.Our_Mission_2do_page .content_mission .content h3 {
+    font-size: 3em;
+}
+
+.Our_Mission_2do_page .content_mission .lastest_missions {
+   position: absolute;
+   bottom: -20px;
+   background: #fff;
+}
+
+.Our_Mission_2do_page .content_mission .lastest_mission {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    z-index: 888;
+    position: absolute;
+}
+
+.Our_Mission_2do_page .content_mission .lastest_mission img {
+    position: absolute;
+    top: 30px;
+    background: yellow;
+    left: 80px;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Our_Mission_2do_page  .content_important {
+    position: absolute;
+    width: 100%;
+    right: -650px;
+} 
+
+.Our_Mission_2do_page .content_mission .lastest_missions .lastest_mission .content_important h4 {
+    font-size: 1.6em;
+    font-weight: 900;
+    width: 100%;
+}
+
+.lecuna {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.lecuna::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: #00000054;
+}
+
+.lecuna img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 666;
+}
+
+.lecuna .lecuna_content {
+    position: relative;
+    z-index: 777;
+}
+
+.lecuna .lecuna_content h2{
+    font-size: 3em;
+    background-color: #002c49;
+    padding: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.lecuna .lecuna_content .lecuna_content_class {
+   position: relative;
+}
+
+.lecuna .lecuna_content .lecuna_content_class .features {
+    display: grid;
+    margin-top: 40px;
+    gap: 5em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.lecuna .lecuna_content .lecuna_content_class .features:nth-child(5 ) {
+    margin-left: 300px;
+}
+
+.lecuna .lecuna_content .lecuna_content_class .features .grid_cards {
+    position: relative;
+    background: #002c49;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.lecuna .lecuna_content .lecuna_content_class .features .grid_cards:hover {
+    scale: 1.2;
+    background-color: #001829;
+}
+
+.lecuna .lecuna_content .lecuna_content_class .features .grid_cards h4 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.lecuna .lecuna_content .lecuna_content_class .features .grid_cards a {
+    position: relative;
+    margin-top: 10px;
+    height: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    transition: .40s ease;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background-color: #fff;
+    width: 100%;
+}
+
+.lecuna .lecuna_content .lecuna_content_class .features .grid_cards a:hover {
+    background: #cfcfcf;
+}
+
+.Our_Mission_2do_page2 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #002c49;
+}   
+
+.Our_Mission_2do_page2 .content_mission2 {
+    position: relative;
+    color: #fff;
+    z-index: 777;
+}
+
+.Our_Mission_2do_page2 .content_mission2 .content2 h3 {
+    font-size: 3em;
+}
+
+.Our_Mission_2do_page2 .content_mission .lastest_missions2 {
+   position: absolute;
+   bottom: -20px;
+   background: #fff;
+}
+
+.Our_Mission_2do_page2 .content_mission2 .lastest_mission2 {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    z-index: 888;
+    position: absolute;
+}
+
+.Our_Mission_2do_page2 .content_mission2 .lastest_mission2 img {
+    position: absolute;
+    top: 30px;
+    background: yellow;
+    left: 690px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Our_Mission_2do_page2  .content_important2 {
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    top: 35px;
+} 
+
+.Our_Mission_2do_page2 .content_mission2 .lastest_missions2 .lastest_mission2 .content_important2 h4 {
+    font-size: 1.6em;
+    font-weight: 900;
+    width: 100%;
+}
+
+footer {
+    position: relative;
+    height: 100%;
+    margin: auto;
+    background: #001829;
+    padding: 50px 100px;
+}
+
+footer .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+footer .container .sec h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .container .sec p {
+    color: #fff;
+}
+
+footer .container .sci {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+}
+
+footer .container .sci li {
+    list-style: none;
+}
+
+footer .container .sci li a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: #313131;
+    display: grid;
+    align-content: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+footer .container .sci li a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+footer .container .quicklinks {
+    position: relative;
+}
+
+footer .container .quicklinks ul li {
+    list-style: none;
+}
+
+footer .container .quicklinks ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+footer .container .contact .info {
+    position: relative;
+
+}
+
+footer .container .contact .info li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 10px;
+}
+
+footer .container .contact .info li span {
+    color: #fff;
+    font-size: 20px;
+    grid-gap: 10px;
+}
+
+footer .container .contact .info li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyrightText {
+    width: 100%;
+    padding: 20px 100px 30px;
+    background: #001829;
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid rgba(223, 223, 223, 0.694);
+}
+
+@media (max-width:1440px) {
+    .Our_Mission_2do_page2 .content_mission2 {
+        position: relative;
+        left: -130px;
+    }
+
+    .Our_Mission_2do_page .content_mission {
+        position: relative;
+        left: -110px;
+    }
+
+    .lecuna .lecuna_content h2 {
+        font-size: 2.5em
+    }
+}
+
+@media (max-width:1600px) {
+    .Our_Mission_2do_page2 .content_mission2 {
+        position: relative;
+        left: -130px;
+    }
+
+    .Our_Mission_2do_page .content_mission {
+        position: relative;
+        left: -110px;
+    }
+
+    .lecuna .lecuna_content h2 {
+        font-size: 1.7em
+    }
+
+    .Our_Mission_2do_page .lastest_mission {
+        position: relative;
+        top: -100px;
+    }
+
+    .Our_Mission_2do_page .content {
+        position: relative;
+        top: -50px;
+    }
+
+    .Our_Mission_2do_page2 .content2{
+        position: relative;
+        top: -30px;
+    }
+
+    .Our_Mission_2do_page2 .lastest_missions2{
+        position: relative;
+        top: -30px;
+    }
+}
